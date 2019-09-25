@@ -2,12 +2,13 @@
 <manifest>
 
 <remote name="gh" fetch="git://github.com"/>
+<remote name="yph" fetch="http://git.yoctoproject.org"/>
 <remote name="yp" fetch="git://git.yoctoproject.org"/>
 <remote name="oe" fetch="git://git.openembedded.org"/>
 
 <default revision="master" remote="gh"/>
 
-<project name="git/poky" path="yocto/" revision="warrior" remote="yp"/>
+<project name="git/poky" path="yocto/" revision="warrior" remote="yph"/>
 <project name="meta-openembedded" path="yocto/meta-openembedded/" revision="warrior" remote="oe"/>
 <project name="Angstrom-distribution/meta-angstrom.git" path="yocto/meta-angstrom" revision="angstrom-v2019.06-warrior" remote="gh"/>
 <project name="meta-raspberrypi" path="yocto/meta-raspberrypi" revision="warrior" remote="yp"/>
