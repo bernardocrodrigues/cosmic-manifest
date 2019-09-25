@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="cosmic" fetch="git://github.com:bernardocrodrigues/"/>
+<remote name="cosmic" fetch="git://github.com"/>
 <default revision="master" remote="cosmic"/>
 
-<project name="meta-cosmic.git" path="yocto/meta-cosmic" revision="master" remote="cosmic"/>
+<project name="bernardocrodrigues/meta-cosmic.git" path="yocto/meta-cosmic" revision="master" remote="cosmic"/>
 
 <!-- <project name="seL4.git" path="kernel"/>
 <project name="seL4_tools.git" path="tools">
