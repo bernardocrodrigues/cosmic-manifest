@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="cosmic" fetch="git://git@github.com:bernardocrodrigues/"/>
+<remote name="cosmic" fetch="git://github.com:bernardocrodrigues/"/>
 <default revision="master" remote="cosmic"/>
 
 <project name="meta-cosmic.git" path="yocto/meta-cosmic" revision="master" remote="cosmic"/>
