@@ -2,7 +2,7 @@
 <manifest>
 
 <remote name="gh" fetch="git://github.com"/>
-<remote name="yp" fetch="http://git.yoctoproject.org"/>
+<remote name="yp" fetch="git://git.yoctoproject.org"/>
 <remote name="oe" fetch="git://git.openembedded.org"/>
 
 <default revision="master" remote="gh"/>
