@@ -5,7 +5,7 @@
 <remote name="yp" fetch="http://git.yoctoproject.org"/>
 <remote name="oe" fetch="git://git.openembedded.org"/>
 
-<default revision="master" remote="cosmic"/>
+<default revision="master" remote="gh"/>
 
 <project name="git/poky" path="yocto/" revision="warrior" remote="yp"/>
 <project name="meta-openembedded" path="yocto/meta-openembedded/" revision="warrior" remote="oe"/>
