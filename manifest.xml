@@ -2,19 +2,12 @@
 <manifest>
 
 <remote name="cosmic" fetch="git://github.com"/>
+<remote name="yp" fetch="http://git.yoctoproject.org"/>
+
 <default revision="master" remote="cosmic"/>
 
+<project name="git/poky" path="yocto/" revision="warrior" remote="yp"/>
 <project name="bernardocrodrigues/meta-cosmic.git" path="yocto/meta-cosmic" revision="master" remote="cosmic"/>
 
-<!-- <project name="seL4.git" path="kernel"/>
-<project name="seL4_tools.git" path="tools">
-    <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt"/>
-    <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
-</project>
-<project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
-<project name="seL4_libs.git" path="projects/seL4_libs"/>
-<project name="util_libs.git" path="projects/util_libs"/>
-<project name="sel4test.git" path="projects/sel4test"/>
-<project name="riscv-pk" remote="sel4proj" revision="fix-32bit" path="projects/riscv-pk"/> -->
 
 </manifest>
