@@ -10,7 +10,7 @@
 
 <project name="git/poky" path="yocto/" revision="warrior" remote="yph"/>
 <project name="meta-openembedded" path="yocto/meta-openembedded/" revision="warrior" remote="oe"/>
-<project name="Angstrom-distribution/meta-angstrom.git" path="yocto/meta-angstrom" revision="angstrom-v2019.06-warrior" remote="gh"/>
+<project name="Angstrom-distribution/meta-angstrom.git" path="yocto/meta-angstrom" revision="master" remote="gh"/>
 <project name="meta-raspberrypi" path="yocto/meta-raspberrypi" revision="warrior" remote="yp"/>
 <project name="meta-qt5/meta-qt5.git" path="yocto/meta-qt5" revision="warrior" remote="gh"/>
 <project name="bernardocrodrigues/meta-cosmic.git" path="yocto/meta-cosmic" revision="master" remote="gh"/>
