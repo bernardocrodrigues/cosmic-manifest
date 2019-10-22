@@ -7,7 +7,7 @@
 
 <default revision="master" remote="gh"/>
 
-<project name="git/poky" path="yocto/" revision="79a850a10a4b88a6d20d607b322542f947874323" remote="yp"/>
+<project name="git/poky" path="yocto/" revision="warrior" remote="yp"/>
 <project name="git/meta-virtualization" path="yocto/meta-virtualization" revision="e1f24ea8e77f8a3c3266264dd71417c8f9661f89" remote="yp"/>
 <project name="meta-openembedded" path="yocto/meta-openembedded/" revision="f4ccdf2bc3fe4f00778629088baab840c868e36b" remote="oe"/>
 <project name="bernardocrodrigues/meta-angstrom.git" path="yocto/meta-angstrom" revision="1144096d3f135406fdb2df7a78a8bf0aad5503bc" remote="gh"/>
