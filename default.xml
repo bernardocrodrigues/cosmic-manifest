@@ -7,10 +7,10 @@
 
 <default revision="master" remote="gh"/>
 
-<project name="git/poky" path="yocto/" revision="79a850a10a4b88a6d20d607b322542f947874323" remote="gh"/>
-<project name="git/meta-virtualization" path="yocto/meta-virtualization" revision="e1f24ea8e77f8a3c3266264dd71417c8f9661f89" remote="gh"/>
+<project name="git/poky" path="yocto/" revision="79a850a10a4b88a6d20d607b322542f947874323" remote="yp"/>
+<project name="git/meta-virtualization" path="yocto/meta-virtualization" revision="e1f24ea8e77f8a3c3266264dd71417c8f9661f89" remote="yp"/>
 <project name="meta-openembedded" path="yocto/meta-openembedded/" revision="f4ccdf2bc3fe4f00778629088baab840c868e36b" remote="oe"/>
-<project name="bernardocrodrigues/meta-angstrom.git" path="yocto/meta-angstrom" revision="87c8b6ceaea2c7220f006ae2c29d957d237245d5" remote="gh"/>
+<project name="bernardocrodrigues/meta-angstrom.git" path="yocto/meta-angstrom" revision="1144096d3f135406fdb2df7a78a8bf0aad5503bc" remote="gh"/>
 <project name="meta-raspberrypi" path="yocto/meta-raspberrypi" revision="0750d5d2bc9596f35d5d61bb0ff657be4b02bfdc" remote="yp"/>
 <project name="meta-qt5/meta-qt5.git" path="yocto/meta-qt5" revision="6ee18b290fe5daf6a12e6cb756a27bf2f60936e2" remote="gh"/>
 <project name="bernardocrodrigues/meta-cosmic.git" path="yocto/meta-cosmic" revision="master" remote="gh"/>
